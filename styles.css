@@ -1,72 +1,76 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
 .body {
     width: 60vw;
     height: 60vh;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 7rem;
     display: flex;
     overflow: hidden;
 }
 
 .sedan, .suv, .luxury {
     width: 20vw;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .sedan {
-    background-color: #fb923c;
+    background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
 
 }
 
 .suv {
-    background-color: #0d9488;
+    background-color: hsl(184, 100%, 22%);
 }
 
 .luxury {
-    background-color: #164e63;
+    background-color: hsl(179, 100%, 13%);
     border-top-right-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
 }
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
 
 p {
-    color:antiquewhite;
-    font-family: 'Noto-sans', sans-serif;
-    font-size: 14px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
     line-height: 22px;
 }
 img {
-    width: 50px;
+    width: 3.125rem;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-stretch: ultra-condensed;
     font-size: 35px;
-    color: antiquewhite;
+    color: hsl(0, 0%, 95%);
 }
 
 a {
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     text-decoration: none;
-    padding: 15px 35px;
+    padding: 0.93rem 2.18rem;
     border-radius: 2rem;
-    margin-top: 15px;
-    font-family: 'Noto-sans', sans-serif;
-    font-size: 14px;
+    margin-top: 0.93rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
     position: relative;
-    top: 50px;
+    top: 3.125rem;
 }
 
 .sedans {
-    color: #fb923c;
+    color: hsl(31, 77%, 52%);
 }
 
 .suvs {
-    color: #0d9488;
+    color: hsl(184, 100%, 22%);
 }
 
 .luxurys {
-    color: #164e63;
+    color: hsl(179, 100%, 13%);
 }
